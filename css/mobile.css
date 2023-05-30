@@ -1,0 +1,40 @@
+@media screen and ( max-width : 768px) {
+    .app-header {
+        height: 100px;
+        background-image: url('../assets/images/tools.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .app-header-overlay {
+        width: 100%;
+        height: 100px;
+        background-color: var(--grayColor);
+        opacity: 0.95;
+        padding: 10px 50px;
+    }
+    .humberger {
+        height: 80px;
+    }
+    .app-header-info {
+        display: none;
+    }
+    .app-nav {
+        display: none;
+    }
+    .humberger {
+        display: block;
+    }
+    .recent-works-container {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+    .work {
+        display: flex;
+        align-items: center;
+        gap:20px
+    }
+    .home-section-img {
+        display: none;
+    }
+}
