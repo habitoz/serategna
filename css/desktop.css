@@ -119,4 +119,14 @@
   .work-btn {
     margin-top: 50px;
   }
+  .testimonials-container {
+    width: 90%;
+    margin: 80px auto 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  .testimonial-more-btn {
+    display: none;
+  }
 }
