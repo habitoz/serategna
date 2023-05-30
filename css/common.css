@@ -25,7 +25,7 @@
 .social-links {
   list-style: none;
   display: flex;
-  gap: 10px;
+  gap: 15px;
   text-align: end;
 }
 .social-link-list {
