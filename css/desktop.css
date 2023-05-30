@@ -1,0 +1,75 @@
+@media screen and (min-width: 768px) {
+  .app-header-info {
+    background-color: var(--darkColor);
+    width: 100%;
+    padding: 10px 40px;
+  }
+
+  .app-header-overlay {
+    display: none;
+  }
+
+  .app-nav {
+    padding: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 0 8px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  .logo-img {
+    height: 50px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .nav-link-list a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: var(--darkColor);
+  }
+
+  .other-link-list a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .nav-link-list a:hover {
+    color: var(--primaryColor);
+  }
+
+  .other-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .header-info-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .nav-btn {
+    margin-left: 20px;
+    background: #fff;
+    color: var(--primaryColor);
+    border: 3px solid var(--primaryColor);
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+  }
+
+  .recent-works-container {
+    display: flex;
+  }
+}
