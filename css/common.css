@@ -237,3 +237,27 @@
   background-color: #fff;
   color: var(--darkColor);
 }
+
+.partners {
+  font-family: 'Lato', sans-serif;
+  background-color: var(--darkColor);
+  opacity: 0.9;
+  padding: 30px 40px;
+  color: var(--grayColor);
+}
+.partners-title {
+  text-align: center;
+  font-weight: 900;
+}
+.partners-list {
+  margin-top: 40px;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.partners-list li a {
+  text-decoration: none;
+}
