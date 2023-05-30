@@ -69,7 +69,36 @@
     cursor: pointer;
   }
 
+  .home-section-desktop-container {
+    background-image: url('../assets/images/tools.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .home-section-overlay {
+    background-color: var(--grayColor);
+    opacity: 0.97;
+  }
+
+  .search-task-card {
+    width: 65%;
+    margin: 50px auto 30px;
+  }
+
   .recent-works-container {
     display: flex;
+  }
+
+  .home-section-info {
+    background: var(--grayColor);
+    margin-top: 20px;
+  }
+
+  .home-section-img {
+    width: 50%;
+    align-self: stretch;
+    background-image: url('../assets/images/tasker-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
