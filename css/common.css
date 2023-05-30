@@ -154,7 +154,7 @@
 }
 
 .recent-works-container {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .work {
@@ -165,8 +165,9 @@
 }
 
 .work-title {
+  font-family: 'Lato',sans-serif;
   color: var(--primaryColor);
-  font-size: 1.4rem;
+  font-size: 16px;
   font-weight: bold;
 }
 
