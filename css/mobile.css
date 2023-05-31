@@ -46,4 +46,17 @@
   .footer-right-desc {
     display: none;
   }
+
+  .awards-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+  }
+
+  .awards-list li {
+    width: 100%;
+    height: 300px;
+  }
 }
