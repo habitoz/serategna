@@ -21,8 +21,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Serategna] <a name="about-project"></a>
 
 **[Serategna]** is an online and mobile marketplace that matches freelance labor with local demand, allowing consumers to find help with everyday tasks, including furniture assembly, moving, delivery, and handyperson work.
@@ -62,7 +60,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://habitoz.github.io/serategna/)
+- [Live Demo Link](https://habitoz.github.io/serategna)
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
