@@ -21,13 +21,19 @@
 
 .app-moto {
   font-family: 'Lato', 'COCOGOOSE', sans-serif;
-  color: var(--darkColor);
-  font-weight: 900;
+  color: var(--primaryColor);
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .app-sub-moto {
   font-family: 'Lato', sans-serif;
+  color: var(--primaryColor);
   margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+  mix-blend-mode: multiply;
 }
 
 .social-links {
@@ -50,19 +56,20 @@
 .home-section {
   background-color: var(--grayColor);
   width: 100%;
+  height: 100vh;
   padding: 0 0 40px;
 }
 
 .home-section-overlay {
   background: var(--grayColor);
   width: 100%;
+  height: 100vh;
   padding: 20px 20px 40px;
 }
 
 .search-task-card {
-  background: #fff;
-  text-align: center;
-  padding: 60px 30px 40px;
+  background: transparent;
+  padding: 40px 20px 40px;
   border-radius: 5px;
 }
 
@@ -92,7 +99,22 @@
   height: 100%;
   padding: 13px 20px;
 }
-
+.home-section-info-card {
+  border: 2px solid white;
+  color: var(--darkColor);
+  font-family: 'Lato', sans-serif;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+.home-section-info-card-second {
+  margin-top: 50px;
+  color: var(--darkColor);
+  font-family: 'COCOGOOSE', sans-serif;
+}
+.home-section-info-card-second p {
+  font-family: 'Lato', sans-serif;
+  margin-top: 5px;
+}
 .home-section-info {
   margin-top: 20px;
   background-color: #fff;
