@@ -27,6 +27,54 @@
     display: none;
   }
 
+  .show-menu {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    padding: 28px;
+    height: 100vh;
+    width: 100vw;
+    background: var(--primaryColor);
+  }
+  .show-menu .app-logo {
+    display: none;
+  }
+  .show-menu .app-nav {
+    display: block;
+  }
+  .show-menu .close-menu-icon {
+    display: block;
+  }
+  .show-menu .app-header-overlay {
+    display: none;
+  }
+  .show-menu .nav-links {
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 10px;
+  }
+  .show-menu .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .show-menu .close-menu-icon {
+    float: right;
+    margin-right: 100px;
+  }
+  .nav-btn {
+    background: #fff;
+    color: var(--primaryColor);
+    border: 3px solid var(--primaryColor);
+    padding: 8px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+  }
   .recent-works-container {
     display: flex;
     flex-direction: column;
