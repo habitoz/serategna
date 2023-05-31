@@ -88,7 +88,7 @@
   .recent-works-container {
     display: flex;
     gap: 5px;
-    padding: 0px 30px;
+    padding: 0 30px;
   }
 
   .home-section-info {
@@ -103,6 +103,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
   .work {
     display: flex;
     flex-direction: column;
@@ -110,15 +111,19 @@
     gap: 15px;
     flex: 1;
   }
+
   .work:hover {
     border: 2px solid #fff;
   }
+
   .work p {
     text-align: center;
   }
+
   .work-btn {
     margin-top: 50px;
   }
+
   .testimonials-container {
     width: 90%;
     margin: 80px auto 20px;
@@ -126,11 +131,13 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
   }
+
   .testimonial-more-btn {
     display: none;
   }
+
   .footer {
     width: 80%;
-    margin: 0px auto;
+    margin: 0 auto;
   }
 }

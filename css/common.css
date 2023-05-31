@@ -165,7 +165,7 @@
 }
 
 .work-title {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   color: var(--primaryColor);
   font-weight: 900;
 }
@@ -178,42 +178,50 @@
   padding: 20px 50px;
   border: none;
 }
+
 .testimonial {
   background-color: #fff;
   padding: 30px 20px;
 }
+
 .testimonials-container {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;
 }
+
 .testimonial-title {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: var(--darkColor);
   font-weight: 900;
 }
+
 .testimonial-card {
   font-family: 'Lato', sans-serif;
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 10px;
 }
+
 .testimonial-card-img {
   background-image: url('../assets/images/tasker-desktop.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .testimonial-name {
   color: var(--darkColor);
   font-weight: 600;
   text-transform: capitalize;
 }
+
 .testimonial-task {
   color: var(--primaryColor);
   margin-top: 8px;
 }
+
 .testimonial-task::after {
   content: '';
   display: block;
@@ -221,12 +229,14 @@
   margin-top: 15px;
   border-bottom: 2px solid var(--grayColor);
 }
+
 .testimonial-comment {
   color: var(--darkColor);
   margin-top: 15px;
 }
+
 .testimonial-more-btn {
-  margin: 60px 0px 20px;
+  margin: 60px 0 20px;
   padding: 20px 20px;
   display: flex;
   gap: 10px;
@@ -245,10 +255,12 @@
   padding: 30px 60px;
   color: var(--grayColor);
 }
+
 .partners-title {
   text-align: center;
   font-weight: 900;
 }
+
 .partners-list {
   margin-top: 40px;
   list-style: none;
@@ -258,12 +270,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
 .partners-list li a {
   text-decoration: none;
 }
 
 .footer {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #fff;
   padding: 40px 20px;
   display: flex;
@@ -271,13 +284,14 @@
   justify-content: center;
   gap: 50px;
 }
+
 .footer-left {
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-.footer-right{
+.footer-right {
   font-weight: bold;
   color: var(--darkColor);
   text-transform: capitalize;
