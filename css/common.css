@@ -242,7 +242,7 @@
   font-family: 'Lato', sans-serif;
   background-color: var(--darkColor);
   opacity: 0.9;
-  padding: 30px 40px;
+  padding: 30px 60px;
   color: var(--grayColor);
 }
 .partners-title {
@@ -260,4 +260,25 @@
 }
 .partners-list li a {
   text-decoration: none;
+}
+
+.footer {
+  font-family: 'Lato',sans-serif;
+  background-color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-right{
+  font-weight: bold;
+  color: var(--darkColor);
+  text-transform: capitalize;
 }

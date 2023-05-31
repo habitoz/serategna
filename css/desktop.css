@@ -129,4 +129,8 @@
   .testimonial-more-btn {
     display: none;
   }
+  .footer {
+    width: 80%;
+    margin: 0px auto;
+  }
 }
