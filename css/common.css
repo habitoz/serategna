@@ -99,6 +99,7 @@
   height: 100%;
   padding: 13px 20px;
 }
+
 .home-section-info-card {
   border: 2px solid white;
   color: var(--darkColor);
@@ -106,15 +107,18 @@
   padding: 20px 15px;
   margin-top: 20px;
 }
+
 .home-section-info-card-second {
   margin-top: 50px;
   color: var(--darkColor);
   font-family: 'COCOGOOSE', sans-serif;
 }
+
 .home-section-info-card-second p {
   font-family: 'Lato', sans-serif;
   margin-top: 5px;
 }
+
 .home-section-info {
   margin-top: 20px;
   background-color: #fff;
