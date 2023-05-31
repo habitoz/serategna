@@ -252,7 +252,7 @@
   font-family: 'Lato', sans-serif;
   background-color: var(--darkColor);
   opacity: 0.9;
-  padding: 30px 60px;
+  padding: 40px 60px 80px;
   color: var(--grayColor);
 }
 
@@ -295,4 +295,51 @@
   font-weight: bold;
   color: var(--darkColor);
   text-transform: capitalize;
+}
+
+.awards {
+  padding: 60px 20px;
+  background-color: #fff;
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+}
+.awards-title {
+  font-weight: 900;
+}
+.award-desc {
+  margin-top: 30px;
+  font-weight: 300;
+}
+.awards-list {
+  margin-top: 30px;
+  list-style: none;
+}
+.awards-list li:nth-child(1) {
+  background-image: url('../assets/images/award1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.awards-list li:nth-child(2) {
+  background-image: url('../assets/images/award2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.award-list-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primaryColor);
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+.about-us p{
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  margin-top: 25px;
+  font-weight: 300;
 }
