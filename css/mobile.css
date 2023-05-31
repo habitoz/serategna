@@ -42,4 +42,8 @@
   .home-section-img {
     display: none;
   }
+
+  .footer-right-desc {
+    display: none;
+  }
 }
