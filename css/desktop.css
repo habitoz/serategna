@@ -140,15 +140,17 @@
     width: 80%;
     margin: 0 auto;
   }
+
   .awards-list {
     display: flex;
     align-items: center;
     gap: 50px;
     width: 70%;
-    margin: 50px auto 0px;
+    margin: 50px auto 0;
   }
+
   .awards-list li {
     width: 50%;
     height: 300px;
-  } 
+  }
 }
