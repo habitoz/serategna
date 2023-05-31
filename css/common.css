@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+.close-menu-icon {
+  display: none;
+}
+
 .app-moto {
   font-family: 'Lato', 'COCOGOOSE', sans-serif;
   color: var(--darkColor);

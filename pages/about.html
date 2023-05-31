@@ -8,7 +8,7 @@
     <title>Serategna</title>
 </head>
 <body>
-    <header class="app-header">
+    <header class="app-header" id="mobile-menu">
         <div class="app-header-info">
                 <div class="header-info-links">
                     <ul class="social-links">
@@ -22,11 +22,14 @@
                     </ul>
                 </div>
         </div>
-        <nav class="app-nav">
+        <nav class="app-nav" id="menu">
             <div class="app-logo">
                 <a title="app logo" href="/"><img class="logo-img" src="../assets/images/logo.png" alt="" srcset=""></a>
             </div>
-            <ul class="nav-links">
+            <div class="close-menu-icon" id="menu-close">
+                <img class="close-menu-icon-img" src="../assets/images/times.svg" alt="" srcset="">
+            </div>
+            <ul class="nav-links" id="menu-items">
                 <li class="nav-link-list"><a href="/">Home</a></li>
                 <li class="nav-link-list"><a href="/pages/about.html">About</a></li>
                 <li class="nav-link-list"><a href="/pages/services.html">Services</a></li>
@@ -34,7 +37,7 @@
             </ul>
         </nav>
         <div class="app-header-overlay">
-            <img class="humberger" src="../assets/images/menu.svg" alt="" srcset="">
+            <img id="humberger" class="humberger" src="../assets/images/menu.svg" alt="" srcset="">
         </div>
     </header>
     <main class="main-content">
@@ -103,4 +106,5 @@
         </div>
     </footer>
 </body>
+<script src="../scripts/index.js"></script>
 </html>
