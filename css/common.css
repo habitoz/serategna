@@ -21,13 +21,19 @@
 
 .app-moto {
   font-family: 'Lato', 'COCOGOOSE', sans-serif;
-  color: var(--darkColor);
-  font-weight: 900;
+  color: var(--primaryColor);
+  font-weight: 400;
+  font-size: 20px;
 }
 
 .app-sub-moto {
   font-family: 'Lato', sans-serif;
+  color: var(--primaryColor);
   margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 700;
+  mix-blend-mode: multiply;
 }
 
 .social-links {
@@ -50,19 +56,20 @@
 .home-section {
   background-color: var(--grayColor);
   width: 100%;
+  height: 100vh;
   padding: 0 0 40px;
 }
 
 .home-section-overlay {
   background: var(--grayColor);
   width: 100%;
+  height: 100vh;
   padding: 20px 20px 40px;
 }
 
 .search-task-card {
-  background: #fff;
-  text-align: center;
-  padding: 60px 30px 40px;
+  background: transparent;
+  padding: 40px 20px 40px;
   border-radius: 5px;
 }
 
@@ -91,6 +98,25 @@
   border: none;
   height: 100%;
   padding: 13px 20px;
+}
+
+.home-section-info-card {
+  border: 2px solid white;
+  color: var(--darkColor);
+  font-family: 'Lato', sans-serif;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+
+.home-section-info-card-second {
+  margin-top: 50px;
+  color: var(--darkColor);
+  font-family: 'COCOGOOSE', sans-serif;
+}
+
+.home-section-info-card-second p {
+  font-family: 'Lato', sans-serif;
+  margin-top: 5px;
 }
 
 .home-section-info {
@@ -275,6 +301,11 @@
   flex-wrap: wrap;
 }
 
+.about-us-footer a {
+  font-weight: bold;
+  color: var(--darkColor);
+}
+
 .partners-list li a {
   text-decoration: none;
 }
@@ -348,9 +379,56 @@
   color: #fff;
 }
 
-.about-us p {
+.about-us-title {
+  text-align: center;
+  margin-top: 10px;
   font-family: 'Lato', sans-serif;
-  text-align: left;
-  margin-top: 25px;
-  font-weight: 300;
+  font-weight: 900;
+  color: var(--primaryColor);
+}
+
+.about-us-content {
+  width: 70%;
+  background: #fff;
+  padding: 30px 40px;
+  margin: 30px auto 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-us-footer {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: var(--darkColor);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.about-logo-section {
+  padding: 50px 20px;
+  border-bottom: 2px solid var(--grayColor);
+}
+
+.about-logo {
+  text-align: center;
+}
+
+.about-logo-title {
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-logo-text {
+  margin-top: 20px;
+}
+
+.about-logo-img {
+  width: 400px;
+  height: 120px;
+  border: 1px solid #dfdfdf;
+  display: block;
+  margin: 30px auto 0;
 }

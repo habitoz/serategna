@@ -34,6 +34,8 @@
     padding: 28px;
     height: 100vh;
     width: 100vw;
+    z-index: 20;
+    opacity: 0.95;
     background: var(--primaryColor);
   }
 
@@ -112,5 +114,9 @@
   .awards-list li {
     width: 100%;
     height: 300px;
+  }
+
+  .about-us-content {
+    width: 100%;
   }
 }

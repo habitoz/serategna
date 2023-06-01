@@ -16,6 +16,10 @@
     box-shadow: 4px 0 8px 2px rgba(0, 0, 0, 0.2);
   }
 
+  .app-sub-moto {
+    width: 70%;
+  }
+
   .logo-img {
     height: 50px;
   }
@@ -82,7 +86,7 @@
 
   .search-task-card {
     width: 65%;
-    margin: 50px auto 30px;
+    margin: 10px auto 30px;
   }
 
   .recent-works-container {
@@ -152,5 +156,10 @@
   .awards-list li {
     width: 50%;
     height: 300px;
+  }
+
+  .about-logo {
+    width: 70%;
+    margin: 0 auto;
   }
 }
