@@ -34,6 +34,8 @@
     padding: 28px;
     height: 100vh;
     width: 100vw;
+    z-index: 20;
+    opacity: 0.95;
     background: var(--primaryColor);
   }
 
