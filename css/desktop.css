@@ -157,4 +157,8 @@
     width: 50%;
     height: 300px;
   }
+  .about-logo {
+    width: 70%;
+    margin: 0px auto;
+  }
 }
